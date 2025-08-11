@@ -1,0 +1,9 @@
+body { background: #181a1b; color: #eee; font-family: 'Fira Mono', monospace; margin:0; }
+#game { max-width: 600px; margin: 40px auto; background: #222; border-radius: 14px; box-shadow: 0 4px 32px #0008; padding: 32px; }
+h1 { text-align: center; color: #ffe66d; letter-spacing: 3px; margin-bottom: 18px; }
+#output { background: #101214; border-radius: 8px; min-height: 180px; padding: 15px; margin-bottom: 16px; font-size: 17px; white-space: pre-wrap; }
+#stats { background: #23272b; border-radius: 8px; padding: 10px; margin-bottom: 12px; font-size: 15px; }
+#command { width: 74%; font-size: 18px; padding: 9px; border-radius: 7px; border: 1px solid #444; background: #181a1b; color: #ffe66d; }
+#send { background: #ffe66d; color: #222; border: none; border-radius: 7px; padding: 10px 22px; font-size: 17px; margin-left: 10px; cursor: pointer;}
+#send:active { background: #ffd700; }
+@media (max-width:700px) { #game{max-width:98vw; padding:10vw 2vw;} }
